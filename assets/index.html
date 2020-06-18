@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Airlines Flight Delay and Cancellattions</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/lux/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+</head>
+
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+  <div class="container text-center">
+    <a class="navbar-brand logo" > 
+      <span class="nav-color">Airlines Flight Delays </span></a>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav"> 
+      
+      </ul>
+    </div>
+  </nav>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <!-- <h1>Airlines Flight Delays and Cancelations</h1> -->
+        <h4>Use the interactive charts below to explore the dataset</h4>
+        <p><a href="http://127.0.0.1:5000/api/v1.0">Available APIs</a></p>
+      </div>
+
+        <!-- <button onclick="window.location.href='http://127.0.0.1:5000/api/v1.0'">Available APIs
+        </button> -->
+      </div>
+    </div>
+    
+    <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="well">
+          <h5>Airport:</h5>
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+      </div>
+    </div>
+
+
+
+
+      </div>
+
+      <div class="container">
+      <div class="row">
+      <div class="col-md-6">
+        <div id="bar" ></div>
+      </div>
+      <div class="col-md-6">
+        <div id="Gauge chart"></div>
+      </div>
+    </div>
+      </div>
+
+      <div class="container">
+    <div class="row" class="img-fluid pull-right" >
+      <div class="col-md-12" class="img-fluid">
+        <div id="Line chart"></div>
+      </div>
+    </div>
+  </div>
+<!-- </div> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="plots.js"></script>
+  <!-- <script src="./static/js/bonus.js"></script> -->
+
+</body>
+
+</html>
