@@ -1,0 +1,15 @@
+click
+dnspython
+Flask
+itsdangerous
+Jinja2
+MarkupSafe
+numpy
+pandas
+pymongo
+python-dateutil
+pytz
+six
+Werkzeug
+plotly
+gunicorn
