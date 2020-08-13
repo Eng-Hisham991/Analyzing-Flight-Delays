@@ -35,6 +35,16 @@ In js, code was modified to create the 3 visualizations. The first is a bar char
 
 We uploaded the app into AWS through elastic beanstalk following different instructions such as creating different files txt and py and uploading them. 
 
+## How to use
+
+ - Select from the lists a departure airport then the month then the charts will be updated accordingly.
+ 
+ App is available on AWS: https://ukm Enjoy!
+ 
+ Hisham (@Eng-Hisham991), Abdullah (@Abdullah101298) and Mercy (@mercymuigai)
+
+
+
 
 
 
