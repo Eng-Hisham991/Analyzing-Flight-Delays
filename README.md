@@ -39,7 +39,7 @@ We uploaded the app into AWS through elastic beanstalk following different instr
 
  - Select from the lists a departure airport then the month then the charts will be updated accordingly.
  
- App is available on AWS: https://ukm Enjoy!
+ App is available on AWS: http://deltavssouthwest-env-1.eba-pms4vqji.us-east-1.elasticbeanstalk.com/ Enjoy!
  
  Hisham (@Eng-Hisham991), Abdullah (@Abdullah101298) and Mercy (@mercymuigai)
 
